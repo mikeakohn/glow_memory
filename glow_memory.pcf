@@ -1,0 +1,60 @@
+# iceFUN board.
+
+# Debug LEDs.
+set_io --warn-no-port leds[0]   C10
+set_io --warn-no-port leds[1]   A10
+set_io --warn-no-port leds[2]   D7
+set_io --warn-no-port leds[3]   D6
+set_io --warn-no-port leds[4]   A7
+set_io --warn-no-port leds[5]   C7
+set_io --warn-no-port leds[6]   A4
+set_io --warn-no-port leds[7]   C4
+set_io --warn-no-port column[0] A12
+set_io --warn-no-port column[1] D10
+set_io --warn-no-port column[2] A6
+set_io --warn-no-port column[3] C5
+set_io --warn-no-port clk       P7
+
+# Data bus.
+set_io --warn-no-port data[7]   C14
+set_io --warn-no-port data[6]   D12
+set_io --warn-no-port data[5]   D14
+set_io --warn-no-port data[4]   E12
+set_io --warn-no-port data[3]   E14
+set_io --warn-no-port data[2]   F12
+set_io --warn-no-port data[1]   F14
+set_io --warn-no-port data[0]   G12
+
+# Address bus.
+set_io --warn-no-port address[3] P10
+set_io --warn-no-port address[2] M9
+set_io --warn-no-port address[1] P9
+set_io --warn-no-port address[0] P8
+
+# Bus signals.
+set_io --warn-no-port be   K14
+set_io --warn-no-port phi2 H11
+set_io --warn-no-port web  L12
+
+# Glow in the dark interface.
+set_io --warn-no-port glow_leds[0] A1
+set_io --warn-no-port glow_leds[1] D3
+set_io --warn-no-port glow_leds[2] C1
+set_io --warn-no-port glow_leds[3] E1
+set_io --warn-no-port glow_leds[4] G3
+set_io --warn-no-port glow_leds[5] J3
+set_io --warn-no-port glow_leds[6] M3
+set_io --warn-no-port glow_leds[7] H1
+
+set_io --warn-no-port glow_value[0] C3
+set_io --warn-no-port glow_value[1] B1
+set_io --warn-no-port glow_value[2] D1
+set_io --warn-no-port glow_value[3] F3
+set_io --warn-no-port glow_value[4] H3
+set_io --warn-no-port glow_value[5] K3
+set_io --warn-no-port glow_value[6] G1
+set_io --warn-no-port glow_value[7] J1
+
+# Reset pin.
+set_io --warn-no-port reset B14
+
